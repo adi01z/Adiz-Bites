@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="A simple HTML template with a linked CSS file." />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/responsive-style.css" />
+
+    <title>Adiz Bites</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header-section" id="home">
+        <nav class="navbar navbar-expand-lg navigation-wrap">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/IMAGES/Adiz Bites.logo.png" alt="Adiz Bites Logo" style="width: 83px; height: auto;" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#story">Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#explore-food">Explore Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="main-btn">1200 345 123</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section 1: Top Banner -->
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h1>Good food choices are good investments</h1>
+                        <p>We are a restaurant that specializes in serving delicious and healthy food options. Our menu
+                            features a variety of dishes made with fresh, high-quality ingredients, and we are committed
+                            to providing our customers with a memorable dining experience.</p>
+
+                        <div> <!--font awesome icon website for icons-->
+                            <a href="/HTML/menu.html"><button class="main-btn">Order now <i
+                                        class="fas fa-solid fa-store ps-3"></i></button></a>
+                            <a href="/HTML/menu.html"><button class="white-btn ms-lg-4 mt-lg-0 mt-4">View Cart<i
+                                        class="fas fa-angle-right ps-3"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Counter -->
+    <section id="counter">
+        <section class="counter-section">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2><span id="count1"></span></h2>
+                        <p>SAVINGS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2><span id="count2"></span></h2>
+                        <p>PHOTOS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2><span id="count3"></span></h2>
+                        <p>Orders</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h2><span id="count4"></span></h2>
+                        <p>Followers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- Section 3: About Us -->
+    <section id="about">
+        <div class="about-section wrapper">
+            <div class="container">
+                <div class="row align-items-center" style="width: 100%">
+                    <div class="col-lg-6 col-md-10 mb-lg-0 mb-5">
+                        <div class="card border-0">
+                            <img src="/IMAGES/bg/15.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 text-sec">
+                        <h2>About Adiz Bites</h2>
+                        <p>
+                            At Adiz Bites, we don't just serve meals — we craft memorable moments. Rooted in a passion
+                            for soulful flavors and mindful dining, our story began with a simple vision: to bring
+                            people together over food that feels like home. Every dish we create blends authenticity
+                            with elegance, offering a sensory experience that goes beyond taste.
+                        </p>
+                        <p>
+                            From cozy bites to grand feasts, our chefs reimagine classic recipes with a modern flair —
+                            always prioritizing freshness, creativity, and heart in every plate.
+                        </p>
+                        <a href="/HTML/story.html"><button class="main-btn mt-4">Discover Our Story</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container food-type">
+                <div class="row align-items-center">
+                    <!-- TEXT SIDE -->
+                    <div class="col-lg-6 col-md-12 text-sec mb-lg-0 mb-5">
+                        <h2>Handcrafted with Passion. Powered by Pure Ingredients.</h2>
+                        <p>
+                            Every bite at Adiz Bites is a tribute to freshness and finesse. We hand-select the finest
+                            local ingredients to ensure our food is not only delicious but also nourishing and
+                            sustainable.
+                        </p>
+                        <p>
+                            Our kitchens are built on authenticity, cleanliness, and a touch of culinary innovation.
+                            Whether you're in the mood for comfort food or something light and refreshing, our diverse
+                            menu speaks to every craving.
+                        </p>
+                        <ul class="list-unstyled py-3">
+                            <li>✔️ Locally sourced, never frozen</li>
+                            <li>✔️ Crafted with care, plated with pride</li>
+                            <li>✔️ Inspired by tradition, enhanced by creativity</li>
+                        </ul>
+                        <a href="/HTML/menu.html">
+                            <button class="main-btn mt-4">View Our Signature Dishes</button> </a>
+                    </div>
+
+                    <!-- IMAGE SIDE -->
+                    <div class="col-lg-6 col-md-12 mb-lg-0 mb-5 image-side">
+                        <div class="card border-0">
+                            <img src="/IMAGES/bg/14.jpg" class="img-fluid custom-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 4: Story -->
+    <section id="story">
+        <div class="story-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content">
+                            <h2>Our Story</h2>
+                            <p>At Adiz Bites, our story is flavored with heart and heritage. What began as a humble
+                                passion project soon blossomed into a culinary destination rooted in authenticity,
+                                warmth, and community. We set out to create more than just food — we set out to create a
+                                feeling.</p>
+                            <p>Driven by a love for genuine flavors and thoughtful presentation, our chefs bring
+                                together timeless traditions and creative innovations. Every dish tells a story — from
+                                the handpicked ingredients to the final plating, it's all about crafting a moment worth
+                                savoring.</p>
+                            <a href="/HTML/story.html"><button class="main-btn mt-3">Read Our Journey</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 5: Menu -->
+    <section id="explore-food">
+        <div class="explore-food wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 ">
+                        <div class="text-content text-center">
+                            <h2>Explore Our Menu</h2>
+                            <p>At Adiz Bites, every dish tells a story — a story of fresh ingredients, handcrafted
+                                flavors, and the joy of sharing. Our menu is thoughtfully curated to bring you comfort
+                                classics, modern bites, and gourmet indulgences — all crafted with love and served with
+                                soul. Whether you're grabbing a quick meal or treating yourself to something special,
+                                there's a perfect plate waiting for you.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="/IMAGES/images/11.jpg" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>🍝 Spaghetti Bolognese</h4>
+                                <p>Time: 15-20 minutes | Serves: 1</p>
+                                <p>A timeless Italian favorite — slow-cooked Bolognese sauce layered over al dente
+                                    spaghetti.</p>
+                                <span>₹150 <del>₹180</del> </span>
+                                <a href="/HTML/menu.html"><button class="main-btn">Order Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="/IMAGES/images/12.jpg" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>🥬 Veg Burger</h4>
+                                <p>Time: 10-20 minutes | Serves: 1</p>
+                                <p>A crunchy veggie patty with fresh lettuce, tomato, and our house sauce, tucked in a
+                                    toasted bun.</p>
+                                <span>₹70 <del>₹100</del> </span>
+                                <a href="/HTML/menu.html"><button class="main-btn">Order Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="/IMAGES/images/13.jpg" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>🍟 French Fries</h4>
+                                <p>Time: 25-30 minutes | Serves: 1</p>
+                                <p>Crispy, golden perfection — hand-cut, double-fried, and seasoned just right.</p>
+                                <span>₹150 <del>₹200</del> </span>
+                                <a href="/HTML/menu.html"><button class="main-btn">Order Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 6: Testimonials -->
+    <section id="testimonial">
+        <div class="wrapper testimonial-section">
+            <div class="container text-center">
+                <div class="text-center pb-4">
+                    <h2>Testimonial</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-lg-10 offset-lg-1">
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <!-- Testimonial 1 -->
+                                <div class="carousel-item active">
+                                    <div class="testimonial-card">
+                                        <img src="/IMAGES/images/3.jpg" alt="User" class="testimonial-img">
+                                        <p>"Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts."</p>
+                                        <h6>Nitti V</h6>
+                                    </div>
+                                </div>
+
+                                <!-- Testimonial 2 -->
+                                <div class="carousel-item">
+                                    <div class="testimonial-card">
+                                        <img src="/IMAGES/images/3.jpg" alt="User" class="testimonial-img">
+                                        <p>"Amazing experience and the best dishes I’ve ever tasted!"</p>
+                                        <h6>Siya</h6>
+                                    </div>
+                                </div>
+
+                                <!-- Testimonial 3 -->
+                                <div class="carousel-item">
+                                    <div class="testimonial-card">
+                                        <img src="/IMAGES/images/3.jpg" alt="User" class="testimonial-img">
+                                        <p>"Superb food quality, cozy vibe, and great service. Loved it!"</p>
+                                        <h6>Jishnu</h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Indicators -->
+                            <div class="carousel-indicators position-relative mt-4">
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel"
+                                    data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel"
+                                    data-bs-slide-to="2"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 7: FAQs -->
+    <section id="faq">
+        <div class="faq wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center pb-4">
+                            <h2>Frequently Asked Questions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p1-5">
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Is the food at Adiz Bites freshly prepared?</h4>
+                        <p>Absolutely! Every dish is made to order using fresh, locally-sourced ingredients — no
+                            shortcuts, no compromises.</p>
+                    </div>
+
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Do you offer vegetarian or vegan options?</h4>
+                        <p>Yes, our menu features a range of flavorful vegetarian and vegan dishes thoughtfully crafted
+                            to satisfy all palates.</p>
+                    </div>
+
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Can I customize my order?</h4>
+                        <p>Of course! We’re happy to accommodate custom requests and dietary needs — just let us know
+                            while placing your order.</p>
+                    </div>
+
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Do you deliver?</h4>
+                        <p>Yes, we offer prompt and hygienic delivery services within the city. You can order online
+                            directly from our website or delivery partners.</p>
+                    </div>
+
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>Is dine-in available?</h4>
+                        <p>Yes, we offer a cozy and elegant dine-in experience. Walk in anytime or reserve a table in
+                            advance for special occasions.</p>
+                    </div>
+
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span>How often does the menu change?</h4>
+                        <p>While we retain our signature favorites, our menu evolves seasonally to bring you fresh,
+                            exciting flavors all year round.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 8: Book Now -->
+    <section id="book-now">
+        <div class="book-now">
+            <div class="container book-now-text">
+                <div class="row text-center align-items-center">
+                    <div class="col-lg-9 col-md-12">
+                        <h2 class="fw-bold">Freshly Baked. Lovingly Served. Daily.</h2>
+                        <p class="mt-2 mb-0">From sunrise treats to evening indulgence — our bakers craft every bite
+                            with soul, softness, and style.</p>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <a href="/HTML/menu.html"><button class="main-btn">Order Now</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- newsletter --> <!-- Section 9: Contact Us -->
+    <section id="newsletter">
+        <div class="newletter wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="sol-sm-12">
+                        <div class="text-content text-center pb-4">
+                            <h2 class="fw-bold">✨ Get 20% Off Your First Order</h2>
+                            <p>Join our gourmet circle — be the first to know about seasonal menus, exclusive offers,
+                                and special events.</p>
+                        </div>
+                        <form class="newsletter">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <input type="email" class="form-control" placeholder="Enter your email address"
+                                        required />
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <button class="main-btn" type="submit">Subscribe Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 10: Footer -->
+    <footer id="footer">
+        <div class="footer py-5 text-light">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-8">
+                        <div class="footer-links mb-3">
+                            <a class="footer-link mx-2" href="#">Register</a>
+                            <a class="footer-link mx-2" href="#">Forum</a>
+                            <a class="footer-link mx-2" href="#">Affiliates</a>
+                            <a class="footer-link mx-2" href="#">FAQs</a>
+                        </div>
+                        <div class="footer-social pt-3">
+                            <a href="#" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="mx-2"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="mx-2"><i class="fab fa-youtube"></i></a> <a
+                                href="https://www.linkedin.com/in/aditi-pal-182064351/" class="mx-2"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/_aditi._01/" class="mx-2"><i
+                                    class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="footer-copy mt-4">
+                            <p class="mb-1">&copy; 2025 <strong>Adiz Bites</strong>. All Rights Reserved.</p>
+                            <p>Designed & Developed with ❤️ by Aditi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+
+    <!-- Custom JS -->
+    <script src="/JS/script.js"></script>
+
+    <!-- Bootstrap JS Bundle with Popper (Required for navbar toggling) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

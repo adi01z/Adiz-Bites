@@ -1,0 +1,194 @@
+/* ===============================
+Responsive Media Queries
+=============================== */
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .wrapper {
+        padding: 4rem 1rem;
+    }
+
+    .text-content {
+        width: 90%;
+    }
+
+    .food-type {
+        padding: 2rem 1rem;
+        margin: 3rem 0;
+    }
+
+    .food-type .custom-img {
+        height: 360px;
+        margin: 1rem auto;
+    }
+
+    .story-section {
+        padding: 2rem;
+    }
+
+    .navigation-wrap {
+        height: auto;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Mobile Devices (up to 767px) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .main-btn,
+    .white-btn {
+        padding: 0.2rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    #home p{
+        margin: 0.8rem;
+    }
+
+    .wrapper {
+        padding: 3rem 1rem;
+    }
+
+    .text-content {
+        width: 90%;
+    }
+
+    .top-banner {
+        padding: 3rem 2rem 3rem;
+        text-align: center;
+    }
+
+    .food-type {
+        display: none;
+    }
+
+    .food-type .text-sec {
+        padding: 0;
+    }
+
+    .food-type .custom-img {
+        display: none;
+    }
+
+    .story-section {
+        display: none;
+    }
+
+    .newsletter {
+        width: 90%;
+    }
+
+    .newsletter button{
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    .navigation-wrap {
+        height: auto;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation-wrap .main-btn {
+        margin: 0.5rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+/* ===== Responsive for small screens (below 768px) ===== */
+@media (max-width: 767.98px) {
+    .menu-left,
+    .menu-right {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    .menu-left {
+        height: 200px; /* fixed height for top image on mobile */
+    }
+
+    .menu-right {
+        padding: 1rem;
+    }
+
+    .menu-item {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+    }
+
+    #modalImg{
+        height: 120px;
+    }
+
+    .menu-item img {
+        width: 60px;
+        height: 60px;
+        margin: 0.5rem;
+    }
+
+    .item-title {
+        font-size: 1rem;
+    }
+}
+
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-column {
+        padding: 0.5rem 0;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1rem;
+    }
+
+    .footer .footer-link {
+        padding: 0 0.6rem; 
+    }
+}

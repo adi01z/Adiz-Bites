@@ -1,0 +1,241 @@
+/* ===============================
+Responsive Media Queries
+=============================== */
+
+/* Tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .wrapper {
+        padding: 4rem 1rem;
+    }
+
+    .text-content {
+        width: 90%;
+    }
+
+    .food-type {
+        padding: 2rem 1rem;
+        margin: 3rem 0;
+    }
+
+    .food-type .custom-img {
+        height: 360px;
+        margin: 1rem auto;
+    }
+
+    .story-section {
+        padding: 2rem;
+    }
+
+    .navigation-wrap {
+        height: auto;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0.2rem 0.1rem;
+        font-size: 0.8rem;
+    }
+
+    .nav-item .main-btn {
+        padding: 0.2rem 1rem;
+        font-size: 0.875rem;
+    }
+}
+
+/* Mobile Devices (up to 767px) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .main-btn,
+    .white-btn {
+        padding: 0.2rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    #home p {
+        margin: 0.4rem;
+        font-size: 0.95rem;
+    }
+
+    .wrapper {
+        padding: 3rem 1rem;
+    }
+
+    .text-content {
+        width: 90%;
+    }
+
+    .top-banner {
+        padding: 3rem 2rem 3rem;
+        text-align: center;
+    }
+
+    .explore-food {
+        padding: 1rem 1rem;
+        margin: 1rem 0;
+    }
+
+    .explore-food h2 p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .food-type {
+        display: none;
+    }
+
+    .food-type .text-sec {
+        padding: 0;
+    }
+
+    .food-type .custom-img {
+        display: none;
+    }
+
+    .story-section {
+        display: none;
+    }
+
+    .newsletter {
+        width: 90%;
+    }
+
+    .newsletter button {
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+
+    .navigation-wrap {
+        height: auto;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation-wrap .main-btn {
+        margin: 0.5rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #testimonial .wrapper{
+        padding: 1rem 1rem 0rem;
+    }
+
+    .testimonial-card {
+        padding: 1rem 1rem;
+        font-size: 1rem;
+        /* height: 100px; */
+    }
+
+    .testimonial-card p{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .testimonial-img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .book-now h2 {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    #faq {
+        padding: 0rem;
+        margin: 0;
+    }
+
+    #faq h4 {
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+
+    #faq p{
+        font-size: 0.75rem;
+        line-height: 1.2rem;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #counter {
+        padding: 0 !important;
+        margin-top: 0 !important;
+        gap: 0;
+        line-height: 0.2rem !important;
+        max-height: 220px;
+    }
+
+    #counter .counter-section h2 {
+        font-size: 1.2rem;
+        line-height: 0.8rem;
+    }
+
+    #counter .counter-section p {
+        font-size: 1rem;
+    }
+
+    #counter .counter-section .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #counter .counter-section .col-md-3 {
+        flex: 0 0 48%;
+        /* Adjusted to fit two items per row */
+        text-align: center;
+        padding-bottom: 0px;
+    }
+}
+
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    .footer .footer-link {
+        padding: 0.4rem 0;
+        display: block;
+    }
+
+    .footer a i {
+        padding: 0.5rem;
+    }
+}
